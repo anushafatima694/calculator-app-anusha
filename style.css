@@ -1,0 +1,57 @@
+h1{
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 32px;
+   margin-right: 80px;
+   color: rgb(77, 191, 230);
+    
+}
+P{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(77, 191, 230);
+   margin-left: 70px;
+}
+
+
+.calculator{
+    
+ width: 400px; 
+   margin: 50px auto; 
+
+background-color: linear-gradient(rgb(194, 191, 191),rgb(233, 231, 231));
+}
+
+.input{
+    
+     padding: 20px;
+     font-size: 50px;
+    margin: 0%;
+    border: 2px solid;
+    font-size: 23px;
+}
+.input:hover{
+    background-color: lightblue;
+    border: 3px solid;
+}
+ 
+.buttonParent{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn{
+    padding: 28px;
+    margin: 2px; 
+    width: 79px;
+border: 1px solid;
+font-size: 20px;
+background-color: rgb(214, 226, 230);
+}
+.btn:hover{
+    background-color: lightblue;
+    border: 2px solid;
+}
